@@ -15,7 +15,7 @@
               <div class="contact-icon">📧</div>
               <div class="contact-details">
                 <h4>Email</h4>
-                <p>contact@omega-devs.com</p>
+                <p>contact@omegadevs.tech</p>
               </div>
             </div>
             
@@ -40,7 +40,7 @@
             <h4>Business Hours</h4>
             <div class="hours-grid">
               <div>Monday - Friday:</div>
-              <div>9:00 AM - 6:00 PM</div>
+              <div>8:00 AM - 8:00 PM</div>
               <div>Weekend:</div>
               <div>Available for urgent projects</div>
             </div>

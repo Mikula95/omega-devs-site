@@ -165,7 +165,7 @@ This project is proprietary software for Omega-Devs.
 ## 📞 Contact
 
 For questions about this website or business inquiries:
-- Email: contact@omega-devs.com
+- Email: contact@omegadevs.tech
 - Location: Banja Luka, Bosnia and Herzegovina
 
 ---

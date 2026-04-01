@@ -22,14 +22,14 @@
           <div class="service-icon">📱</div>
           <h3>Mobile Development</h3>
           <p>
-            Native Android applications and cross-platform mobile solutions 
-            that provide excellent user experience across all devices.
+            Native Android and iOS applications, alongside cross-platform 
+            mobile solutions built with Flutter & React Native.
           </p>
           <ul class="service-features">
-            <li>Android Native Apps</li>
-            <li>React Native Apps</li>
+            <li>Flutter & React Native Apps</li>
+            <li>iOS & Android Native Apps</li>
             <li>Mobile UI/UX Design</li>
-            <li>App Store Deployment</li>
+            <li>App Store & Play Store Deployment</li>
           </ul>
         </div>
 
@@ -90,6 +90,21 @@
             <li>Code Review & Optimization</li>
             <li>Technical Training</li>
             <li>Ongoing Maintenance</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🧊</div>
+          <h3>2D & 3D Services</h3>
+          <p>
+            Immersive interactive experiences, 3D modeling, animations, and 
+            WebGL-based web applications that bring your ideas to life.
+          </p>
+          <ul class="service-features">
+            <li>3D Modeling & Animation</li>
+            <li>WebGL & Three.js</li>
+            <li>Interactive 2D Graphics</li>
+            <li>AR/VR Solutions</li>
           </ul>
         </div>
       </div>
@@ -178,6 +193,21 @@
 
 .service-card:hover .service-features li {
   color: #ddd;
+}
+
+@media (min-width: 1200px) {
+  .services-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .service-card {
+    grid-column: span 2;
+  }
+  
+  .service-card:nth-child(1),
+  .service-card:nth-child(6) {
+    grid-column: 2 / 4;
+  }
 }
 
 @media (max-width: 768px) {

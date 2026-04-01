@@ -6,6 +6,7 @@ import Services from './components/Services.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
+import Clients from './components/Clients.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import Footer from './components/Footer.vue'
     <Services />
     <Projects />
     <Contact />
+    <Clients />
     <Footer />
   </div>
 </template>
