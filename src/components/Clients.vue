@@ -34,9 +34,11 @@ const clients = ref([
   { name: 'xrhuman', url: 'https://xrhuman.eu/' },
   { name: 'Grammarus', url: 'https://grammarsaurus.co.uk/' },
   { name: 'Nine alfa ltd', url: 'https://www.ninealfa.co.uk/' },
-  { name: 'ccnet', url: 'https://www.ccnet.de/en/' },
+  { name: 'ccnet', url: 'https://www.ccnet.de/' },
   { name: 'Png systems', url: 'https://png.systems/' },
-  { name: 'aiandit', url: 'https://aiandit.com/' }
+  { name: 'aiandit', url: 'https://aiandit.com/' },
+  { name: '3Dmarch', url: 'https://3dmarch.org/' },
+  
 ]);
 </script>
 

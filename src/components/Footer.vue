@@ -40,8 +40,8 @@
           <h4>Contact Info</h4>
           <div class="contact-info">
             <p>📍 Banja Luka, Bosnia and Herzegovina</p>
-            <p>📧 contact@omegadevs.tech</p>
-            <p>📱 +387 XX XXX XXX</p>
+            <p>📧 info@omegadevs.tech</p>
+            <p>📱 +387 65 389 414</p>
             <p>🕒 Mon-Fri: 8:00 AM - 8:00 PM</p>
           </div>
         </div>

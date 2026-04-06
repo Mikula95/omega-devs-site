@@ -3,7 +3,7 @@
     <div class="container">
       <div class="nav-wrapper">
         <div class="logo">
-          <h2><span class="text-blue">Omega</span>-Devs</h2>
+          <img src="/omega_devs_logo_2.png" alt="Omega Devs Logo" />
         </div>
         <nav class="nav">
           <a href="#home" class="nav-link">Home</a>
@@ -51,9 +51,12 @@ const toggleMenu = () => {
   padding: 1rem 0;
 }
 
-.logo h2 {
-  font-size: 1.8rem;
-  font-weight: 700;
+
+
+.logo img {
+  height: 4.5rem;
+  width: auto;
+  display: block;
 }
 
 .nav {
@@ -67,6 +70,11 @@ const toggleMenu = () => {
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.15rem;
+  border-radius: 2rem;
+  background: rgba(74, 158, 255, 0.08);
+  margin: 0 0.1rem;
 }
 
 .nav-link:hover {

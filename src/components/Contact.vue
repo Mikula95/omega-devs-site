@@ -15,7 +15,7 @@
               <div class="contact-icon">📧</div>
               <div class="contact-details">
                 <h4>Email</h4>
-                <p>contact@omegadevs.tech</p>
+                <p>info@omegadevs.tech</p>
               </div>
             </div>
             
@@ -23,7 +23,7 @@
               <div class="contact-icon">📱</div>
               <div class="contact-details">
                 <h4>Phone</h4>
-                <p>+387 XX XXX XXX</p>
+                <p>+387 65 389 414</p>
               </div>
             </div>
             
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        
+<!--         
         <div class="contact-form">
           <form @submit.prevent="handleSubmit">
             <div class="form-group">
@@ -122,7 +122,7 @@
               Send Message
             </button>
           </form>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -158,8 +158,10 @@ const handleSubmit = () => {
 
 <style scoped>
 .contact-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
   gap: 4rem;
   margin-top: 2rem;
 }
