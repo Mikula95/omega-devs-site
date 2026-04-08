@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a car "Beganovic" Prijedor</title>
+    <meta name="description"
+        content="Flota premium vozila za rent-a-car. Jednostavna i brza online rezervacija, transparentne cijene u Prijedoru.">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts: Outfit for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Beganovic<span> Rent a car</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Početna</a></li>
+                <li><a href="#vozila">Vozila</a></li>
+                <li><a href="#cjenovnik">Cjenovnik</a></li>
+                <li><a href="#o-nama">O nama</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="language-selector">
+                    <span>BA <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <a href="#rezervacija" class="btn btn-primary">Rezerviši</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container hero-content">
+            <h1>Otkrijte slobodu<br><span class="accent">putovanja.</span></h1>
+            <p>Premium vozila, transparentne cijene i rezervacija za manje od 30 sekundi.</p>
+
+            <!-- Booking Form Widget -->
+            <div class="booking-widget glass-panel">
+                <form class="booking-form">
+                    <div class="form-group pickup">
+                        <label><i class="fas fa-map-marker-alt"></i> Lokacija preuzimanja</label>
+                        <select required>
+                            <option value="">Odaberite lokaciju</option>
+                            <option value="prijedor">Prijedor</option>
+                            <option value="banja_luka">Banja Luka</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="far fa-calendar-alt"></i> Preuzimanje</label>
+                        <input type="datetime-local" required>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="far fa-calendar-check"></i> Vraćanje</label>
+                        <input type="datetime-local" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">
+                        Nađi vozila <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features" id="o-nama">
+        <div class="container">
+            <div class="section-header">
+                <h2>Zašto odabrati nas?</h2>
+                <p>Standard iznad očekivanja. Vaše povjerenje je naš prioritet.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Brza Rezervacija</h3>
+                    <p>Završite proces rezervacije online u samo nekoliko klikova bez skrivenih troškova.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Puno Osiguranje</h3>
+                    <p>Vozite bezbrižno! Sva naša vozila dolaze sa opcijom kasko osiguranja.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-headset"></i></div>
+                    <h3>24/7 Podrška</h3>
+                    <p>Za sva pitanja i pomoć na putu, naš tim je dostupan u svakom trenutku.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet / Popular Cars -->
+    <section class="fleet" id="vozila">
+        <div class="container">
+            <div class="section-header">
+                <h2>Naša Najpopularnija Vozila</h2>
+                <p>Odaberite savršen automobil za vaše putovanje iz naše premium flote.</p>
+            </div>
+
+            <!-- Filters Mockup -->
+            <div class="fleet-filters">
+                <button class="filter-btn active">Sva vozila</button>
+                <button class="filter-btn">Economy</button>
+                <button class="filter-btn">SUV</button>
+                <button class="filter-btn">Luxury</button>
+            </div>
+
+            <div class="cars-grid">
+                <!-- Car Card 1 -->
+                <div class="car-card glass-panel">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&q=80&w=800"
+                            alt="Mercedes C Class">
+                        <div class="car-tag">Top Ponuda</div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-title">
+                            <h3>Fiat 500L</h3>
+                            <span class="price">85 BAM <small>/ dan</small></span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                            <span><i class="fas fa-cogs"></i> Automatik</span>
+                            <span><i class="fas fa-users"></i> 5 Sjedista</span>
+                            <span><i class="far fa-snowflake"></i> Klima</span>
+                        </div>
+                        <div class="car-actions">
+                            <button class="btn btn-outline">Detalji</button>
+                            <button class="btn btn-primary">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Card 2 -->
+                <div class="car-card glass-panel">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&q=80&w=800"
+                            alt="Volkswagen Golf">
+                    </div>
+                    <div class="car-details">
+                        <div class="car-title">
+                            <h3>Volkswagen Golf 8</h3>
+                            <span class="price">45 BAM <small>/ dan</small></span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> Benzin</span>
+                            <span><i class="fas fa-cogs"></i> Manuelni</span>
+                            <span><i class="fas fa-users"></i> 5 Sjedista</span>
+                            <span><i class="far fa-snowflake"></i> Klima</span>
+                        </div>
+                        <div class="car-actions">
+                            <button class="btn btn-outline">Detalji</button>
+                            <button class="btn btn-primary">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car Card 3 -->
+                <div class="car-card glass-panel">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&q=80&w=800"
+                            alt="Audi Q8">
+                        <div class="car-tag luxury">Luxury</div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-title">
+                            <h3>Ford</h3>
+                            <span class="price">120 BAM <small>/ dan</small></span>
+                        </div>
+                        <div class="car-specs">
+                            <span><i class="fas fa-gas-pump"></i> Diesel</span>
+                            <span><i class="fas fa-cogs"></i> Automatik</span>
+                            <span><i class="fas fa-users"></i> 5 Sjedista</span>
+                            <span><i class="far fa-snowflake"></i> Klima</span>
+                        </div>
+                        <div class="car-actions">
+                            <button class="btn btn-outline">Detalji</button>
+                            <button class="btn btn-primary">Rezerviši</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center" style="margin-top: 3rem;">
+                <button class="btn btn-outline btn-large">Pogledaj cjelokupnu ponudu</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="recenzije">
+        <div class="container">
+            <div class="section-header">
+                <h2>Šta kažu naši klijenti</h2>
+                <div class="google-rating">
+                    <i class="fab fa-google"></i>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <span>4.9 / 5.0 (150+ Recenzija)</span>
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card glass-panel">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Sve je proteklo savršeno! Auto je bilo čisto, na vrijeme dostavljeno na aerodrom, a proces
+                        vraćanja je trajao čitava 2 minuta. Topla preporuka!"</p>
+                    <div class="author">- Haris M.</div>
+                </div>
+                <div class="review-card glass-panel">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <p>"Izuzetno profesionalni. Cijela rezervacija je bila jasna, bez skrivenih troškova. Definitivno ću
+                        ponovo koristiti njihove usluge."</p>
+                    <div class="author">- Ana P.</div>
+                </div>
+                <div class="review-card glass-panel">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>"Super auta i jednostavno online plaćanje. Podrška preko WhatsAppa je bila jako brza i korisna."
+                    </p>
+                    <div class="author">- Ante J.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Često Postavljena Pitanja</h2>
+            </div>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Koliki je depozit za vozila?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Depozit varira u zavisnosti od klase vozila, a kreće se od 300 BAM za economy do 1000 BAM za
+                            luxury
+                            kategorije. Depozit se rezerviše na kreditnoj kartici i u potpunosti oslobađa po povratku
+                            vozila bez oštećenja.</p>
+                    </div>
+                </div>
+                <!-- Dodatna FAQ pitanja mogu biti implementirana na isti nacin -->
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Da li je moguć prelazak granice?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Da, prelazak granice je dozvoljen uz prethodnu najavu. Mogu se primijeniti dodatne takse za
+                            zeleni karton i osiguranje.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="kontakt">
+        <div class="container footer-content">
+            <div class="footer-col brand">
+                <h2>Rent a car <span>"Beganovic"</span></h2>
+                <p>Vaš pouzdan partner za rent-a-car u Prijedoru. Pružamo usluge vrhunskog kvaliteta sa naglaskom na
+                    vaše zadovoljstvo.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col links">
+                <h3>Brzi Linkovi</h3>
+                <ul>
+                    <li><a href="#home">Početna</a></li>
+                    <li><a href="#vozila">Vozila</a></li>
+                    <li><a href="#uslovi">Uslovi najma</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact">
+                <h3>Kontakt Info</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> Prijedor, Bosna i Hercegovina</li>
+                    <li><i class="fas fa-phone-alt"></i> <a href="tel:XXX">XXX</a></li>
+                    <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/XXX">WhatsApp Podrška</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@beganovic.ba">info@beganovic.ba</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Rent a car "Beganovic" Prijedor. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/XXX" class="floating-whatsapp" target="_blank" title="Kontaktirajte nas preko WhatsApp-a">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script>
+        // Simple JS for Header Scroll Effect & FAQ Accordion dummy logic
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        const faqItems = document.querySelectorAll('.faq-question');
+        faqItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                item.querySelector('i').classList.toggle('fa-chevron-up');
+            });
+        });
+    </script>
+</body>
+
+</html>
