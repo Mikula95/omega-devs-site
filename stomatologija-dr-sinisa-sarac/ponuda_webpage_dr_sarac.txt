@@ -1,0 +1,94 @@
+# PONUDA ZA IZRADU WEB STRANICE - STOMATOLOGIJA DR SARAC
+
+-----------------------------------------------------
+
+## BASIC PAKET — Informativni sajt
+
+**Osnovno online prisustvo bez naprednih funkcionalnosti.**
+
+Paket uključuje:
+
+- Dizajn i izradu web stranice
+- Početnu stranicu
+- Stranicu sa uslugama (lista usluga sa cijenama)
+- O nama stranicu
+- Kontakt stranicu
+- Responsive dizajn (mobilni + računari)
+- Kontakt formu za email upite
+- Personalizovani email (npr. info@drsarac.demo)
+
+Ne uključuje:
+
+- Online rezervacije
+- Online plaćanje
+- Automatsku dostupnost termina
+
+Cijena: 235 KM
+Mjesečno održavanje: 20 KM (izmjene osnovnih informacija)
+Rok izrade: 2–3 dana
+------------------------------------------------------
+
+## STANDARD PAKET — Profesionalni sajt
+
+**Online rezervacije i  automatizacija poslovanja.**
+
+### ✔ Sve iz BASIC paketa plus:
+
+- Sistem za online rezervacije
+- Izbor datuma rezervacije
+- Automatsko izračunavanje cijene usluga
+- Email potvrdu rezervacije
+- Galeriju usluga
+- Višejezični sajt (BA / EN)
+
+**Cijena:** 690 KM
+**Mjesečno održavanje:** 35 KM
+*(izmjene informacija i sadržaja na sajtu)*
+
+⏱ **Rok izrade:** 10–12 dana
+
+------------------------------------------------------
+
+## PREMIUM PAKET — Napredni booking sistem
+
+**Kompletno digitalno rješenje sa automatizacijom rezervacija i naprednim funkcijama.**
+
+### ✔ Sve iz STANDARD paketa +:
+
+- Real-time dostupnost termina
+- Online plaćanje karticama
+- Admin panel za upravljanje rezervacijama
+- Automatski kalendar zauzeća stolica
+- WhatsApp / Viber integraciju
+* 
+Cijena: od 1200 KM (zavisno od funkcionalnosti)
+Mjesečno održavanje: 45 KM
+Rok izrade: po dogovoru
+
+----------------------------------------------------
+
+## ⚙️ Prilagodjavanje po potrebi
+
+Moguća je kombinacija funkcionalnosti iz različitih paketa.
+Konačna cijena definiše se prema zahtjevima i obimu projekta.
+
+----------------------------------------------------
+
+##  Dodatne usluge (po dogovoru)
+
+* Izrada logotipa
+* Dizajn vizit kartica
+* Snimanje lokacije dronom i prikaz na sajtu
+* Izrada aplikacije za booking termina
+* Izrada promotivnih letaka ili brošura
+* Masovno slanje promotivnih emailova
+* Masovno slanje SMS promocija
+* Izrada QR koda za vizitke ili reklame
+* Automatizacija odgovora na upite (chatbot na sajtu)
+
+-------------------------------------------------------
+
+**Napomena:**
+Sve funkcionalnosti mogu se dodatno prilagoditi prema potrebama klijenta.
+
+---
