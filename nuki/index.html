@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centar za događaje NUKI | Gdje svaka proslava postaje spektakl</title>
+    <meta name="description" content="Centar za događaje NUKI - organizacija svadbi, proslava i posebnih trenutaka. Gdje svaka proslava postaje spektakl.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">NUKI</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Otvori meni">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Početna</a></li>
+                <li><a href="#o-nama" class="nav-link">O nama</a></li>
+                <li><a href="#usluge" class="nav-link">Usluge</a></li>
+                <li><a href="#galerija" class="nav-link">Galerija</a></li>
+                <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-subtitle-top">Centar za događaje</p>
+            <h1 class="hero-title">NUKI</h1>
+            <p class="hero-tagline">Gdje svaka proslava postaje spektakl</p>
+            <div class="hero-icons">
+                <div class="hero-icon-item">
+                    <i class="fas fa-ring"></i>
+                    <span>Svadbe</span>
+                </div>
+                <div class="hero-icon-divider">•</div>
+                <div class="hero-icon-item">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>Proslave</span>
+                </div>
+                <div class="hero-icon-divider">•</div>
+                <div class="hero-icon-item">
+                    <i class="fas fa-champagne-glasses"></i>
+                    <span>Posebni Trenuci</span>
+                </div>
+            </div>
+            <a href="#kontakt" class="hero-cta">Rezervišite termin</a>
+        </div>
+        <a href="#o-nama" class="scroll-indicator" aria-label="Skroluj dole">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- O nama Section -->
+    <section class="section about" id="o-nama">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O nama</h2>
+                <div class="title-decoration"><span></span><i class="fas fa-diamond"></i><span></span></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">Dobrodošli u <strong>Centar za događaje NUKI</strong> — mjesto gdje se snovi pretvaraju u stvarnost.</p>
+                    <p>Sa godinama iskustva u organizaciji nezaboravnih događaja, naš tim stručnjaka posvećen je tome da svaki detalj bude savršen. Od intimnih proslava do velikih svadbi, pružamo kompletnu uslugu koja nadmašuje očekivanja.</p>
+                    <p>Naš elegantni prostor, pažljivo dizajniran do najsitnijeg detalja, pruža savršen ambijent za vaše najvažnije trenutke. Kombinujemo luksuz, toplinu i profesionalnost kako bismo stvorili događaje o kojima se priča.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="500">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Organizovanih događaja</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="200">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Srećnih parova</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+                            <span class="stat-label">Godina iskustva</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Usluge Section -->
+    <section class="section services" id="usluge">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše usluge</h2>
+                <div class="title-decoration"><span></span><i class="fas fa-diamond"></i><span></span></div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ring"></i>
+                    </div>
+                    <h3>Svadbe</h3>
+                    <p>Vaš najvažniji dan zaslužuje savršenstvo. Od ceremonije do posljednjeg plesa — brinemo se o svakom detalju kako bi vaša svadba bila nezaboravna.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Kompletna organizacija</li>
+                        <li><i class="fas fa-check"></i> Dekoracija po mjeri</li>
+                        <li><i class="fas fa-check"></i> Cvijetni aranžmani</li>
+                        <li><i class="fas fa-check"></i> Koordinacija na dan vjenčanja</li>
+                    </ul>
+                </div>
+                <div class="service-card featured">
+                    <div class="service-badge">Najpopularnije</div>
+                    <div class="service-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Proslave</h3>
+                    <p>Bilo da slavite rođendan, jubilej ili korporativni događaj — naš tim će osigurati da vaša proslava bude upravo onakva kakvu ste zamislili.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Rođendani i jubileji</li>
+                        <li><i class="fas fa-check"></i> Korporativni događaji</li>
+                        <li><i class="fas fa-check"></i> Tematske proslave</li>
+                        <li><i class="fas fa-check"></i> Catering usluge</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-champagne-glasses"></i>
+                    </div>
+                    <h3>Posebni Trenuci</h3>
+                    <p>Svaki poseban trenutak zaslužuje poseban prostor. Od zaruka do baby shower-a — pretvaramo vaše ideje u magične trenutke.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Zaruke i veridbe</li>
+                        <li><i class="fas fa-check"></i> Baby shower</li>
+                        <li><i class="fas fa-check"></i> Godišnjice</li>
+                        <li><i class="fas fa-check"></i> Intimna okupljanja</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerija Section -->
+    <section class="section gallery" id="galerija">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galerija</h2>
+                <div class="title-decoration"><span></span><i class="fas fa-diamond"></i><span></span></div>
+                <p class="section-subtitle">Pogledajte atmosferu naših dosadašnjih događaja</p>
+            </div>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Sve</button>
+                <button class="filter-btn" data-filter="svadbe">Svadbe</button>
+                <button class="filter-btn" data-filter="proslave">Proslave</button>
+                <button class="filter-btn" data-filter="posebni">Posebni trenuci</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="svadbe">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-ring"></i>
+                        <span>Svadba</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="proslave">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-birthday-cake"></i>
+                        <span>Proslava</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="posebni">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-champagne-glasses"></i>
+                        <span>Posebni trenuci</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="svadbe">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-heart"></i>
+                        <span>Svadba</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="proslave">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-music"></i>
+                        <span>Proslava</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="posebni">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-star"></i>
+                        <span>Posebni trenuci</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Šta kažu naši klijenti</h2>
+                <div class="title-decoration"><span></span><i class="fas fa-diamond"></i><span></span></div>
+            </div>
+            <div class="testimonials-slider" id="testimonialsSlider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Naša svadba u NUKI-ju bila je apsolutno savršena. Svaki detalj je bio na mjestu, a osoblje nevjerovatno ljubazno. Preporučujemo svima!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Ana & Marko</span>
+                        <span class="author-event">Svadba, 2025</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Proslava 50. rođendana moje majke bila je spektakularna. Dekoracija je bila predivna, hrana izvanredna. Hvala NUKI timu na nezaboravnom iskustvu!"</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Jelena M.</span>
+                        <span class="author-event">Proslava rođendana, 2025</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Za našu korporativnu večeru tražili smo elegantan prostor i profesionalan pristup. NUKI je nadmašio sva naša očekivanja. Definitivno ćemo se vratiti."</p>
+                    <div class="testimonial-author">
+                        <span class="author-name">Firma XY d.o.o.</span>
+                        <span class="author-event">Korporativni događaj, 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <button class="dot active" data-index="0" aria-label="Recenzija 1"></button>
+                <button class="dot" data-index="1" aria-label="Recenzija 2"></button>
+                <button class="dot" data-index="2" aria-label="Recenzija 3"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Section -->
+    <section class="section contact" id="kontakt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktirajte nas</h2>
+                <div class="title-decoration"><span></span><i class="fas fa-diamond"></i><span></span></div>
+                <p class="section-subtitle">Spremni ste za nezaboravan događaj? Javite nam se!</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Adresa</h4>
+                            <p>Ulica i broj, Grad</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p><a href="tel:+38700000000">+387 00 000 000</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:info@nuki.ba">info@nuki.ba</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Radno vrijeme</h4>
+                            <p>Pon - Pet: 09:00 - 18:00<br>Sub: 10:00 - 14:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ime i prezime</label>
+                            <input type="text" id="name" name="name" required placeholder="Vaše ime">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Vaš broj telefona">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="Vaša email adresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-type">Tip događaja</label>
+                        <select id="event-type" name="event-type">
+                            <option value="" disabled selected>Izaberite tip događaja</option>
+                            <option value="svadba">Svadba</option>
+                            <option value="proslava">Proslava</option>
+                            <option value="rodjendan">Rođendan</option>
+                            <option value="korporativni">Korporativni događaj</option>
+                            <option value="ostalo">Ostalo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Željeni datum</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Poruka</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Opišite nam vaše želje..."></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        <span>Pošaljite upit</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">NUKI</h3>
+                    <p class="footer-tagline">Centar za događaje</p>
+                    <p class="footer-desc">Gdje svaka proslava postaje spektakl</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Brzi linkovi</h4>
+                    <ul>
+                        <li><a href="#hero">Početna</a></li>
+                        <li><a href="#o-nama">O nama</a></li>
+                        <li><a href="#usluge">Usluge</a></li>
+                        <li><a href="#galerija">Galerija</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Usluge</h4>
+                    <ul>
+                        <li><a href="#usluge">Svadbe</a></li>
+                        <li><a href="#usluge">Proslave</a></li>
+                        <li><a href="#usluge">Posebni trenuci</a></li>
+                        <li><a href="#usluge">Korporativni događaji</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Centar za događaje NUKI. Sva prava zadržana.</p>
+                <p class="footer-credit">Izrađeno od strane <a href="https://omegadevs.tech" target="_blank" rel="noopener">Omega Devs</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Vrati se na vrh">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        const backToTop = document.getElementById('backToTop');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+                backToTop.classList.add('visible');
+            } else {
+                navbar.classList.remove('scrolled');
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        // Mobile menu toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        navToggle.addEventListener('click', () => {
+            navToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Back to top
+        backToTop.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Animated counters
+        function animateCounters() {
+            const counters = document.querySelectorAll('.stat-number');
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                const duration = 2000;
+                const step = target / (duration / 16);
+                let current = 0;
+
+                const update = () => {
+                    current += step;
+                    if (current < target) {
+                        counter.textContent = Math.ceil(current);
+                        requestAnimationFrame(update);
+                    } else {
+                        counter.textContent = target;
+                    }
+                };
+                update();
+            });
+        }
+
+        // Intersection Observer for animations
+        const observerOptions = { threshold: 0.2 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                    if (entry.target.classList.contains('about')) {
+                        animateCounters();
+                    }
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Gallery filter
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const filter = btn.dataset.filter;
+
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.dataset.category === filter) {
+                        item.style.display = '';
+                        setTimeout(() => item.classList.add('show'), 10);
+                    } else {
+                        item.classList.remove('show');
+                        setTimeout(() => item.style.display = 'none', 300);
+                    }
+                });
+            });
+        });
+
+        // Initialize gallery items as visible
+        galleryItems.forEach(item => item.classList.add('show'));
+
+        // Testimonials slider
+        const testimonials = document.querySelectorAll('.testimonial-card');
+        const dots = document.querySelectorAll('.dot');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            testimonials.forEach(t => t.classList.remove('active'));
+            dots.forEach(d => d.classList.remove('active'));
+            testimonials[index].classList.add('active');
+            dots[index].classList.add('active');
+            currentSlide = index;
+        }
+
+        dots.forEach(dot => {
+            dot.addEventListener('click', () => showSlide(+dot.dataset.index));
+        });
+
+        setInterval(() => {
+            showSlide((currentSlide + 1) % testimonials.length);
+        }, 5000);
+
+        // Contact form
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const btn = this.querySelector('.form-submit');
+            btn.innerHTML = '<i class="fas fa-check"></i> Poruka poslana!';
+            btn.style.background = 'linear-gradient(135deg, #2d8a4e, #1a5c33)';
+            setTimeout(() => {
+                btn.innerHTML = '<span>Pošaljite upit</span><i class="fas fa-paper-plane"></i>';
+                btn.style.background = '';
+                this.reset();
+            }, 3000);
+        });
+
+        // Particle effect for hero
+        function createParticles() {
+            const container = document.getElementById('particles');
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.width = particle.style.height = Math.random() * 4 + 1 + 'px';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = Math.random() * 4 + 3 + 's';
+                container.appendChild(particle);
+            }
+        }
+        createParticles();
+
+        // Active nav link on scroll
+        const sections = document.querySelectorAll('section[id]');
+        window.addEventListener('scroll', () => {
+            const scrollY = window.scrollY + 100;
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+                const id = section.getAttribute('id');
+                const link = document.querySelector('.nav-link[href="#' + id + '"]');
+                if (link) {
+                    if (scrollY >= top && scrollY < top + height) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
