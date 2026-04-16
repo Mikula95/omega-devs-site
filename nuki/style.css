@@ -450,7 +450,7 @@ img {
     line-height: 1.8;
 }
 
-.about-stats {
+.about-highlights {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 32px;
@@ -459,31 +459,27 @@ img {
     border-top: 1px solid rgba(201, 168, 76, 0.15);
 }
 
-.stat-item {
+.highlight-item {
     text-align: center;
 }
 
-.stat-number {
-    font-family: 'Playfair Display', serif;
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--gold);
-    display: inline;
-}
-
-.stat-plus {
-    font-family: 'Playfair Display', serif;
+.highlight-item i {
     font-size: 2rem;
     color: var(--gold);
+    margin-bottom: 16px;
 }
 
-.stat-label {
-    display: block;
-    font-size: 0.8rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+.highlight-item h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    color: var(--gold-light);
+    margin-bottom: 8px;
+}
+
+.highlight-item p {
+    font-size: 0.85rem;
     color: var(--text-muted);
-    margin-top: 8px;
+    margin-bottom: 0;
 }
 
 /* ===== Services Section ===== */
@@ -701,94 +697,64 @@ img {
     color: var(--gold);
 }
 
-/* ===== Testimonials ===== */
-.testimonials {
+/* ===== Why Us Section ===== */
+.why-us {
     background: var(--bg-section-alt);
 }
 
-.testimonials-slider {
-    max-width: 700px;
-    margin: 0 auto;
-    position: relative;
-    min-height: 250px;
+.why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
 }
 
-.testimonial-card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+.why-us-item {
     text-align: center;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.5s ease;
-    pointer-events: none;
+    padding: 40px 24px;
+    border: 1px solid rgba(201, 168, 76, 0.1);
+    border-radius: 4px;
+    transition: all var(--transition);
 }
 
-.testimonial-card.active {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
+.why-us-item:hover {
+    border-color: rgba(201, 168, 76, 0.3);
+    transform: translateY(-5px);
+    background: rgba(201, 168, 76, 0.03);
 }
 
-.testimonial-stars {
-    margin-bottom: 24px;
-}
-
-.testimonial-stars i {
-    color: var(--gold);
-    font-size: 0.9rem;
-    margin: 0 2px;
-}
-
-.testimonial-text {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.3rem;
-    font-style: italic;
-    color: var(--white);
-    line-height: 1.8;
-    margin-bottom: 28px;
-}
-
-.testimonial-author {
+.why-us-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px;
+    border: 1px solid rgba(201, 168, 76, 0.25);
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
-    gap: 4px;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition);
 }
 
-.author-name {
+.why-us-icon i {
+    font-size: 1.4rem;
+    color: var(--gold);
+}
+
+.why-us-item:hover .why-us-icon {
+    background: rgba(201, 168, 76, 0.1);
+    border-color: var(--gold);
+}
+
+.why-us-item h4 {
     font-family: 'Playfair Display', serif;
     font-size: 1.1rem;
-    color: var(--gold);
+    color: var(--gold-light);
+    margin-bottom: 10px;
 }
 
-.author-event {
-    font-size: 0.8rem;
+.why-us-item p {
+    font-size: 0.85rem;
     color: var(--text-muted);
-    letter-spacing: 1px;
-}
-
-.testimonial-dots {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 40px;
-}
-
-.dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 1px solid var(--gold);
-    background: transparent;
-    cursor: pointer;
-    transition: all var(--transition);
-    padding: 0;
-}
-
-.dot.active,
-.dot:hover {
-    background: var(--gold);
+    line-height: 1.7;
 }
 
 /* ===== Contact Section ===== */
@@ -1089,6 +1055,10 @@ img {
         margin: 0 auto;
     }
 
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .contact-wrapper {
         grid-template-columns: 1fr;
         gap: 48px;
@@ -1148,9 +1118,15 @@ img {
         padding: 80px 0;
     }
 
-    .about-stats {
+    .about-highlights {
         grid-template-columns: 1fr;
         gap: 24px;
+    }
+
+    .why-us-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
     }
 
     .gallery-grid {
