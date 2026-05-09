@@ -22,8 +22,9 @@
             <div class="contact-method">
               <div class="contact-icon">📱</div>
               <div class="contact-details">
-                <h4>Phone</h4>
+                <h4>Phones</h4>
                 <p>+387 65 389 414</p>
+                <p>+387 65 371 593</p>
               </div>
             </div>
             

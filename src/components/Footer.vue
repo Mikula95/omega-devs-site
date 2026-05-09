@@ -42,6 +42,7 @@
             <p>📍 Banja Luka, Bosnia and Herzegovina</p>
             <p>📧 info@omegadevs.tech</p>
             <p>📱 +387 65 389 414</p>
+            <p>📱 +387 65 371 593</p>
             <p>🕒 Mon-Fri: 8:00 AM - 8:00 PM</p>
           </div>
         </div>
